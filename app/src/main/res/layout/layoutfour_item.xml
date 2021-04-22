@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_view_bg">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp">
+
+        <View
+            android:id="@+id/bar"
+            android:layout_width="20dp"
+            android:layout_height="70dp"
+            android:adjustViewBounds="true"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:padding="20dp"
+            app:tint="@color/white"
+            tools:text="F" />
+
+        <ImageView
+            android:id="@+id/img_icon_four"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_toEndOf="@id/bar"
+            android:adjustViewBounds="true"
+            android:background="@color/grey"
+            android:gravity="center"
+            android:padding="20dp"
+            android:src="@drawable/ic_person"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/text_icon_four"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_toEndOf="@id/img_icon_four"
+            android:background="@color/grey"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="LOREM IPSUM" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

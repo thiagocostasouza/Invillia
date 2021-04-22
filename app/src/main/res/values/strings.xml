@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ChallengeTwo</string>
+    <string name="Home">Home</string>
+    <string name="menu_1">Layout 1</string>
+    <string name="menu_2">Layout 2</string>
+    <string name="menu_3">Layout 3</string>
+    <string name="menu_4">Layout 4</string>
+    <string name="menu_5">Layout 5</string>
+    <string name="menu_6">Layout 6</string>
+    <string name="menu_7">Layout 7</string>
+    <string name="menu_8">Layout 8</string>
+    <string name="menu_9">Layout 9</string>
+
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Fechar</string>
+
+
+    <string name="text_example">TextExample</string>
+    <string name="autor_example">AutorExample</string>
+    <string name="text_coments">0 coments</string>
+    <string name="label">LABEL</string>
+    <string name="comment_text">0 Comentários</string>
+</resources>

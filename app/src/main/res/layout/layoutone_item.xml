@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_view_bg"
+    tools:showIn="@layout/layout_one">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:padding="20dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/img_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:src="@drawable/ic_add"
+            app:tint="@color/white"
+            tools:text="F" />
+
+        <TextView
+            android:id="@+id/text_icon"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_toEndOf="@id/img_icon"
+            android:background="@color/grey"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="LOREM IPSUM"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
